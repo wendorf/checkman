@@ -46,7 +46,7 @@ namespace :included_scripts do
   task :integration_specs do
     rspec = `which rspec`.strip
     raise "** Install rspec **" if rspec.empty?
-    system_or_exit "#{rspec} scripts/specs/*_spec.rb"
+    system_or_exit "#{rspec} spec/*_spec.rb"
   end
 end
 

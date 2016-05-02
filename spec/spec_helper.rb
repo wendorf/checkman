@@ -25,7 +25,7 @@ end
 
 def file_contents(file_name)
   specs_path = File.dirname(File.expand_path(__FILE__))
-  file_path = File.join(specs_path, "..", file_name)
+  file_path = File.join(specs_path, "..", "scripts", file_name)
   contents = File.read(file_path)
 end
 
