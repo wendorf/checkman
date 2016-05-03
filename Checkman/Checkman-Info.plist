@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tomato.Checkman</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -22,6 +22,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>7</string>
+	<key>Git SHA</key>
+	<string>GIT_SHA_PLACEHOLDER</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
@@ -30,8 +32,6 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
-	<key>Git SHA</key>
-	<string>GIT_SHA_PLACEHOLDER</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
